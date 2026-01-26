@@ -1,0 +1,94 @@
+1. 비주얼 코드 다운로드
+
+비주얼 스튜디오 코드
+https://code.visualstudio.com/
+
+다운로드
+https://code.visualstudio.com/docs/?dv=win64user
+
+라이선스 계약서 - 동의
+> 전부 다음, 설치
+
+
+2. 앱 실행
+
+Extensions > 서치 : korean 한국어 패키지(나는 안 함)
+익스플로러, 오픈 폴더
+C:\cdh\front > 셀렉 폴더 > 신뢰
+새파일 만들기 > index.html
+
+
+=====================
+기본 코드 예시 :
+
+버전 5
+HTML 기본 코드
+
+<!DOCTYPE>
+<html>
+    <head></head>
+    <body></body>
+</html>
+------------
+! 엔터
+=====================
+HTML 이란?
+
+하이퍼 텍스트 마크업 랭귀지 > HTML
+언어보다는 문서 작성
+브라우저 : 크롬, 블루웨일, 사파리 ...
+
+꾸미기 > CSS
+
+=====================
+확장프로그램 : 
+
+live server(저장하면 바로 반영)
+색깔
+오류 표시
+
+========================
+
+3. <깃 허브> 연결
+
+깃허브에 레포지토리 만들기 : front
+코드 복사
+(https://github.com/chadohun89-alt/front.git)
+
+비주얼 코드 git(소스 컨트롤) > 다운로드 윈도우 x64 셋업 > 빨간 글씨 나올 때까지 next 
+> Use Visual Studio 깃(짧은거) > 넥스트 > 설치
+
+비주얼 코드 종료 후 재실행
+
+f1버튼, git 클론 선택
+코드 입력 :
+https://github.com/chadohun89-alt/front.git
+저장소 선택(내이름 폴더 / front 아님)
+신뢰
+
+비주얼 코드에 폴더 만들기
+html기초1
+
+파일 만들기
+index.html
+
+! > 자동완성
+
+소스코드(소스 컨트롤)
+메시지 - 커밋 - 오류 메시지
+
+「Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name" 」
+
+뉴 터미널 (파워쉘x) 커맨드 프롬포트
+
+위 오류 코드 입력
+git config --global user.name "chadohun89-alt"
+git config --global user.email "chadohun89@gmail.com"
+
+커밋 > 싱크 체인지 > ok > 깃허브 로그인(나는 구글계정으로 했음)
+권한 부여는 http://127.0.0.1:51909 로 연결됩니다.
+
+4. 깃허브에 올라갔는지 확인
